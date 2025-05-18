@@ -73,7 +73,7 @@ std::unordered_map<int, Nation> loadNations(const std::string& filePath) {
 }
 
 // Load supplier.tbl
-// Load supplier.tbl with correct field positions
+
 std::vector<Supplier> loadSuppliers(const std::string& filePath) {
     std::vector<Supplier> suppliers;
     std::ifstream file(filePath);
@@ -106,7 +106,7 @@ int main() {
             if (regions.find(n.regionKey) != regions.end()) {
                 Region r = regions[n.regionKey];
 
-                // Print result
+               
                 std::cout << s.name << " | " << n.name << " | " << r.name
                           << " | $" << s.acctBal << '\n';
             }

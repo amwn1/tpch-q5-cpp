@@ -33,10 +33,10 @@ std::vector<Region> loadRegionTable(const std::string& filePath) {
 }
 
 int main() {
-    std::string filePath = "region.tbl"; // making this file in the same folder to track tbl files.
+    std::string filePath = "region.tbl"; 
     std::vector<Region> regions = loadRegionTable(filePath);
 
-    // Print parsed results
+   
     for (const auto& r : regions) {
         std::cout << r.regionKey << " | " << r.name << " | " << r.comment << "\n";
     }

@@ -37,7 +37,7 @@ std::vector<Nation> loadNationTable(const std::string& filePath) {
 }
 
 int main() {
-    std::string filePath = "nation.tbl"; // Same folder
+    std::string filePath = "nation.tbl"; 
     std::vector<Nation> nations = loadNationTable(filePath);
 
     for (const auto& n : nations) {
