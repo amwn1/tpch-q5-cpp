@@ -1,0 +1,7 @@
+# Ignore TPCH data files
+*.tbl
+
+# Ignore build artifacts
+tpch_q5
+*.out
+*.o
