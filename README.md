@@ -51,9 +51,7 @@ Move them into your working directory or use the `--data-dir` flag to point to t
 
 ### ✅ Option 2 – Download a pre-generated dataset
 
-[Link to Google Drive ZIP will be provided here soon]
-
----
+[Download dataset (ZIP, 1 GB)](https://drive.google.com/file/d/1W1D9mk_x9ZF6kk-e_-91n-2UvjdRCvRw/view?usp=sharing)
 
 ## 📁 Folder Structure (after setup)
 
