@@ -12,8 +12,8 @@ struct Region {
 // Parses region.tbl and stores data in a vector of Region
 std::vector<Region> loadRegionTable(const std::string& filePath) {
     std::vector<Region> regions;
-    std::ifstream file(filePath);
-    std::string line;
+    std::ifstream file(filePath); // open the file for reading
+    std::string line; //will hold each raw line
 
     while (std::getline(file, line)) {
         std::stringstream ss(line);
@@ -22,7 +22,7 @@ std::vector<Region> loadRegionTable(const std::string& filePath) {
 
         std::getline(ss, token, '|');
         r.regionKey = std::stoi(token);
-
+ 
         std::getline(ss, r.name, '|');
         std::getline(ss, r.comment, '|');
 
